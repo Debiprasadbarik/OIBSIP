@@ -1,0 +1,67 @@
+@media screen and (max-width:767px){
+  
+}
+@media screen and (min-width:1024px) {
+  
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #6af2e7;
+    margin: 10%;
+}
+/* Styling the Title and giving
+shadow to the title */
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    font-size: 7vh;
+}
+
+/* Setting width and display
+type of image */
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Setting font color and font
+size of the image-caption */
+#caption {
+    font-size: 20px;
+    font-family: Gill Sans;
+    color: black;
+}
+
+/* Styling the content of the page like-
+padding, font-size, font color etc.*/
+div#tribute-data {
+    background-color: rgba(88, 184, 193, 0.94);
+    box-shadow: 20px 20px 20px #488ecb;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title-vk {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
